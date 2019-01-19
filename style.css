@@ -1,65 +1,73 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
 name-prefix,
 name-postfix {
-  position: absolute;
-  animation-delay: 0.5s;
-  animation-duration: 4s;
+    position: absolute;
+    animation-delay: 0.5s;
+    animation-duration: 4s;
 }
 
 name-prefix {
-  top: -1em;
-  left: -2em;
+    top: -1em;
+    left: -2em;
 }
 
 name-postfix {
-  bottom: -1.5em;
-  right: -5em;
+    bottom: -1.5em;
+    right: -5em;
 }
 
 name-block {
-  position: relative;
+    position: relative;
 }
 
 name-entry {
-  font-size: 3em;
+    font-size: 3em;
 }
 
 flash-entry {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  font-size: 2em;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-size: 2em;
 }
 
 #particle {
-  background-color: #673ab7;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
+    background-color: #673ab7;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
 }
 
 @media (max-width: 1024px) {
-  flash-entry {
-    align-items: flex-start;
-    padding-top: 3em;
-  }
-  name-block {
-    margin-left: 1em;
-  }
-  name-prefix,
-  name-postfix {
-    left: 0;
-    right: 0;
-  }
+    flash-entry {
+        align-items: flex-start;
+        padding-top: 3em;
+    }
+    name-block {
+        margin-left: 1em;
+    }
+    name-prefix,
+    name-postfix {
+        left: 0;
+        right: 0;
+    }
+}
+
+a:visited {
+    color: #3ab769
+}
+
+a {
+    color: #96ff00
 }
